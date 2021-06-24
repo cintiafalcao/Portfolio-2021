@@ -1,0 +1,309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Menu",
+				"MenuView"
+			],
+			[
+				"onC",
+				"onContact"
+			],
+			[
+				"Cont",
+				"ContactView"
+			],
+			[
+				"to",
+				"toggleMenu"
+			],
+			[
+				"Image",
+				"ImageGroup"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "open ",
+		"selected_items":
+		[
+			[
+				"open ",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/cintiafalcao/portfolio2021/scss/starter.scss",
+		"/Users/cintiafalcao/bootstrap-npm-starter/scss/starter.scss",
+		"/Users/cintiafalcao/Documents/portifolio/penacova/app/public/index.php",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/about.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/ADC.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/AWH.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/buzzfeat.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/devoradores.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/diegoreis.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/docbrown.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/drawings.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/EFDN.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/G4S.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/illustration.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/lojadaseda.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/marcelod2.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/mobile.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/paintings.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/pedrasul.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/penacova.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/personal.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/privilege.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/qranio.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/reptil.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/rioproperty.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/saramandaia.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/vamosdesenhar.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/watercolor.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/web.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/logo.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/sketches.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/index.html",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/css/style.css",
+		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/css/materialize.css",
+		"/Users/cintia/cintiafalcao.github.io/index.sublime-workspace",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/css/style.css",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/css/materialize.css",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/lojadaseda.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/logo.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/drawings.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/sketches.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/personal.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/index.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/buzzfeat.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/devoradores.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/diegoreis.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/docbrown.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/illustration.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/marcelod2.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/mobile.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/paintings.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/pedrasul.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/penacova.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/privilege.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/qranio.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/reptil.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/rioproperty.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/saramandaia.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/vamosdesenhar.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/web.html",
+		"/Users/cintia/Downloads/parallax-template/index.html",
+		"/Users/cintia/cintiafalcao.com.br/parallax-template/js/init.js",
+		"/Users/cintia/cintiafalcao.com.br/materialize-src/index.html",
+		"/Users/cintia/cintiafalcao.com.br/materialize-src/sass/components/_badges.scss",
+		"/Users/cintia/cintiafalcao.github.io/src/Menu.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Saramandaia.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Main.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Project.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Case.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Advdiego.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/list.json",
+		"/Users/cintia/cintiafalcao.github.io/src/App.js",
+		"/Users/cintia/cintiafalcao.github.io/src/App.css",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Pedrasul.js",
+		"/Users/cintia/cintiafalcao.github.io/public/index.html",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Qranio.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Buzzfeat.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Paintings.js",
+		"/Users/cintia/cintiafalcao.github.io/public/CNAME",
+		"/Users/cintia/Documents/website/letter.txt",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/DocBrown.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Home.js",
+		"/Users/cintia/Documents/letter.pdf",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Abcd.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Category.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Vamosdesenhar.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Aline.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Devoradores.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Fit.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Lojadaseda.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Marcelod2.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Penacova.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Privilege.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Reptil.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Rioproperty.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/Sola.js",
+		"/Users/cintia/cintiafalcao.github.io/src/projects/ABCD.js",
+		"/Users/cintia/cintiafalcao.github.io/src/Timeline.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio2021.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project.json",
+				"projects/list.json"
+			],
+			[
+				"list",
+				"projects/list.json"
+			],
+			[
+				"qrani",
+				"projects/Qranio.js"
+			],
+			[
+				"proj",
+				"Project.js"
+			],
+			[
+				"",
+				"Timeline.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

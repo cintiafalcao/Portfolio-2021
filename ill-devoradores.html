@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <title>Cintia Falcao - Portfolio</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+
+
+  <nav class="navbar navfixed">
+    <div class="top-left">
+      <div class="fixed-menu"><lottie-player class="icon-med pointer" background="transparent" speed="2"></lottie-player></div>
+      <div class="fixed-menu-bg">
+        <ul class="menu">
+          <img class="responsive-img logo-big" src="assets/images/logo-big.svg" alt="logo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-navbar">
+      <div id="logo"><a href="index.html"><img class="responsive-img icon-med" src="assets/icons/logo.svg" alt="logo"></a></div>
+    </div>
+  </nav>
+
+  <div class="grid-container">
+    <div class="item-left-2 margin-lateral padding-right">
+      <h1>Devoradores de Livros</h1>
+      <div><p class="tag-illustration tag-inactive" id="tag"><span>Illustration</span></p></div>
+      <p class="date">2014</p>
+      <p><b>Devoradores de Livros</b> is a website designed to cultivate a consistent reading habit.</p>
+    </div>
+    <div class="item-right-align-3"><img class="responsive-img" src="assets/images/Devoradores-top.png" alt="cover"></div>
+    <div class="item-left-3"><img class="responsive-img" src="assets/images/Devoradores-349.png" alt="flow"></div>
+    <div class="item-right-2 margin-lateral padding-right">
+      <h3>What I Did</h3>
+      <ul class="small">
+        <li>Designed the elements and characters.</li>     
+      </ul>
+      <h3>For Whom</h3>
+      <div class="forwho">
+      </div>
+      <p>Devoradores de Livros</p>
+    </div>
+    <div class="item-left-2 margin-lateral">
+      <h3>My Goal</h3>
+      <p>Create a reading habit. <strong>How?</strong><p>
+      <ul class="small">
+        <li>Allow children to customize their avatar;</li>
+        <li>Answer the quiz, and get rewarded with new accessories and characters.</li>
+      </ul>
+    </div>
+
+    <div class="item-right-3"><img class="responsive-img" src="assets/images/Devoradores-315.png" alt="Devoradores"></div>
+
+    <div class="item-left-3"><img class="responsive-img" src="assets/images/Devoradores-350.png" alt="Devoradores"></div> 
+
+    <div class="item-right-2 margin-lateral padding-right">
+      <h3>How It Works</h3>
+      <p>After reading a book, children look for whether a quiz is already available on the site.</p>
+      <p>The Quiz is a questionnaire with multiple-choice questions about the book.</p>
+      <p>After answering the Quiz, they will be virtually rewarded and can customize their avatar.</p>
+    </div>
+
+    <div class="item-left-2 margin-lateral img-r">
+      <h3>Create Your Own Avatar</h3>
+      <p>Export all the elements in identical frame size and format.</p>
+      <p><br><img class="halfsize" src="assets/images/Devoradores-366.png" alt="Devoradores"></p>
+    </div>
+
+    <div class="item-right-3 screen"><img class="responsive-img" src="assets/images/Devoradores-26.png" alt="Devoradores"></div>    
+             
+  </div>
+
+<script>
+  let startPosition = true;
+  const player = document.querySelector("lottie-player");
+  player.load("https://assets4.lottiefiles.com/private_files/lf30_fkmyiy22.json");
+
+  player.addEventListener("click", closeMenu);
+
+  function closeMenu() {
+    $('.fixed-menu-bg').toggleClass('active');
+
+    $('.thumb').toggleClass('disabled');
+
+
+    if(startPosition){
+      player.setDirection(1);   // Set the direction of the animation
+      player.play();   // Play the animation till the end
+      startPosition = !startPosition;   // Set the variable to false
+    } else {
+      player.setDirection(-1);   // If startPosition is false, switch direction
+      player.play();   // and play the animation again but this time reversed
+      startPosition = !startPosition;   // Set the startPosition to true for the next click
+    }
+
+  }
+</script>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+  </body>
+</html>

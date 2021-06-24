@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <title>Cintia Falcao - Portfolio</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+
+
+  <nav class="navbar navfixed">
+    <div class="top-left">
+      <div class="fixed-menu"><lottie-player class="icon-med pointer" background="transparent" speed="2"></lottie-player></div>
+      <div class="fixed-menu-bg">
+        <ul class="menu">
+          <img class="responsive-img logo-big" src="assets/images/logo-big.svg" alt="logo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-navbar">
+      <div id="logo"><a href="index.html"><img class="responsive-img icon-med" src="assets/icons/logo.svg" alt="logo"></a></div>
+    </div>
+  </nav>
+
+  <div class="grid-container">
+    <div class="item-left-2 margin-lateral padding-right">
+      <h1>Diego Reis Advocacia</h1>
+      <div><p class="tag-branding tag-inactive" id="tag"><span>Branding</span></p></div>
+      <p class="date">2014</p>
+      <p>Brand identity and logo concept for <b>Reis Advocacia e Consultoria Jurídica</b>, a Brazilian law firm.</p>
+    </div>
+    <div class="item-right-align-3"><img class="responsive-img" src="assets/images/Diego-top.png" alt="cover"></div>
+    <div class="item-left-3"><img class="responsive-img" src="assets/images/Diego-28.png" alt="flow"></div>
+    <div class="item-right-2 margin-lateral padding-right">
+      <h3>What I Did</h3>
+      <ul class="small">
+        <li>Designed illustrations;</li>
+        <li>Created animations.</li>      
+      </ul>
+      <h3>For Whom</h3>
+      <div class="forwho">
+      </div>
+      <p>Reis Advocacia e Consultoria Jurídica specializes in Consumer, Civil, Family and Administrative Law.</p>
+    </div>
+    <div class="item-left-2 margin-lateral">
+      <h3>Logo</h3>
+      <p>The idea was to get away from the classic icons related to law offices, such as the balance, and instead use the arches, subtly reference the Greek columns and keep it as clean as possible.</p>
+    </div>
+
+    <div class="item-right-3 screen"><img class="responsive-img" src="assets/images/Diego-35.png" alt="Diego"></div>
+
+    <div class="item-left-3"><img class="responsive-img" src="assets/images/Diego-31.png" alt="Diego"></div> 
+
+    <div class="item-right-2 margin-lateral padding-right">
+      <h3>Collaterals</h3>
+      <p>Created print collaterals to promote the brand.</p>
+    </div>
+
+    <div class="item-left-2 margin-lateral">
+    </div>
+
+    <div class="item-right-3 screen"><img class="responsive-img" src="assets/images/Diego-29.png" alt="Diego"></div>    
+             
+  </div>
+
+<script>
+  let startPosition = true;
+  const player = document.querySelector("lottie-player");
+  player.load("https://assets4.lottiefiles.com/private_files/lf30_fkmyiy22.json");
+
+  player.addEventListener("click", closeMenu);
+
+  function closeMenu() {
+    $('.fixed-menu-bg').toggleClass('active');
+
+    $('.thumb').toggleClass('disabled');
+
+
+    if(startPosition){
+      player.setDirection(1);   // Set the direction of the animation
+      player.play();   // Play the animation till the end
+      startPosition = !startPosition;   // Set the variable to false
+    } else {
+      player.setDirection(-1);   // If startPosition is false, switch direction
+      player.play();   // and play the animation again but this time reversed
+      startPosition = !startPosition;   // Set the startPosition to true for the next click
+    }
+
+  }
+</script>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+  </body>
+</html>
