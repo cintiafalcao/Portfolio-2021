@@ -614,6 +614,7 @@ ul.menu {
 .forwho img {
 	padding: 0 1rem 0.8rem 0;
 }
+
 // Nav
 .navbar {	
   overflow: hidden;
@@ -676,12 +677,8 @@ img.halfsize {
 }
 
 @media only screen and (min-width: 0px) {
-
-  /*.screen img {
-	  padding: 1rem 0;
-	}*/
-  .screen {
-  	//text-align: center;
+  .v-img-padding {
+    padding: 1rem 2rem;
   }
 
   ul.menu {
@@ -756,9 +753,9 @@ img.halfsize {
 
 @media only screen and (min-width: 900px) { 
 
-  /*.screen img {
-	  padding: 0 1.1rem 0 0;
-	}*/
+  .v-img-padding {
+    padding: 0 !important;
+  }
 
   ul.menu {
   	margin: 3.1rem 0 0 5.28rem;
