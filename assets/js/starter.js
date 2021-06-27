@@ -18,5 +18,7 @@
 // If you're importing tooltips or popovers, be sure to include our Popper.js dependency
 // import "../../node_modules/popper.js/dist/popper.min.js";
 
+// not working
+
 import "../../assets/js/bootstrap/js/dist/util.js";
 import "../../assets/js/bootstrap/js/dist/modal.js";
