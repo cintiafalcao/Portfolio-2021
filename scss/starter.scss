@@ -200,6 +200,11 @@ hr {
   font-family: "AdobeClean-Light" !important;
   line-height: 1.3rem !important;;	
 }
+.x-small {
+  font-size: 0.7rem !important;
+  font-family: "AdobeClean-Light" !important;
+  line-height: 1.3rem !important;;  
+}
 
 .big {
   font-size: 1.3rem;	
@@ -351,6 +356,26 @@ img.responsive-img, video.responsive-video {
   font-family: "AdobeClean-SemiLight";
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff; 
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.footer img {
+  padding: 0.3rem 0.6rem 0.3rem 0;
+}
+
+.footer span {
+  font-family: "AdobeClean-SemiLight";
+  background: linear-gradient(to left, #098EB2, #FF6B6B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
 .btn {	
   font-family: "AdobeClean-SemiLight";
 }
@@ -411,7 +436,7 @@ img.label {
 }
 
 .top-left {
-  z-index: 3;
+  z-index: 4;
   position: fixed;
 }
 
@@ -477,7 +502,7 @@ img.label {
   position: fixed;
   top:0;
   left:0;
-  z-index: 2;
+  z-index: 5;
   background: url(../images/gradient.png) no-repeat center;
   background-color: rgba(255, 255, 255, 0);
   background-size: cover;
@@ -514,7 +539,7 @@ img.label {
 
 .fixed-menu {
   position: absolute;
-  z-index: 4;
+  z-index: 8;
   text-align: center;
 }
 
@@ -618,7 +643,7 @@ ul.menu {
 // Nav
 .navbar {	
   overflow: hidden;
-  z-index: 2;
+  z-index: 4;
 }
 
 .work-filter {
@@ -684,7 +709,9 @@ img.halfsize {
   ul.menu {
   	margin: 3.1rem 0 0 3.2rem;
   }
-
+  .copyright{
+    margin-left: 3.2rem;
+  }
   .top-left {
     width: 3.2rem;
     height: 3.1rem;
@@ -759,6 +786,9 @@ img.halfsize {
 
   ul.menu {
   	margin: 3.1rem 0 0 5.28rem;
+  }
+  .copyright{
+    margin-left: 5.28rem;
   }
 
   .top-left {

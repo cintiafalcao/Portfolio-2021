@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"carou",
+				"carouselImages"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"fixed-",
+				"fixed-menu-bg"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
 				"Menu",
 				"MenuView"
 			],
@@ -27,6 +47,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 9543,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/starter.js",
+			"settings":
+			{
+				"buffer_size": 624,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -64,10 +102,43 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/cintiafalcao/portfolio2021",
+		"/Users/cintiafalcao/portfolio2021/assets",
+		"/Users/cintiafalcao/portfolio2021/assets/js",
+		"/Users/cintiafalcao/portfolio2021/fonts",
+		"/Users/cintiafalcao/portfolio2021/scss"
 	],
 	"file_history":
 	[
+		"/Users/cintiafalcao/portfolio2021/work.html",
+		"/Users/cintiafalcao/portfolio2021/work-illustration.html",
+		"/Users/cintiafalcao/portfolio2021/ADC.html",
+		"/Users/cintiafalcao/portfolio2021/app-EFDN.html",
+		"/Users/cintiafalcao/portfolio2021/app-report.html",
+		"/Users/cintiafalcao/portfolio2021/diegoreis.html",
+		"/Users/cintiafalcao/portfolio2021/ill-devoradores.html",
+		"/Users/cintiafalcao/portfolio2021/ill-vamosdesenhar.html",
+		"/Users/cintiafalcao/portfolio2021/index.html",
+		"/Users/cintiafalcao/portfolio2021/qranio.html",
+		"/Users/cintiafalcao/portfolio2021/sideproject.html",
+		"/Users/cintiafalcao/portfolio2021/web-livelife.html",
+		"/Users/cintiafalcao/portfolio2021/work-app.html",
+		"/Users/cintiafalcao/portfolio2021/work-branding.html",
+		"/Users/cintiafalcao/portfolio2021/work-web.html",
+		"/Users/cintiafalcao/portfolio2021/about.html",
+		"/Users/cintiafalcao/portfolio2021/scss/flickity.scss",
 		"/Users/cintiafalcao/portfolio2021/scss/starter.scss",
+		"/Users/cintiafalcao/portfolio2021/assets/js/starter.js",
+		"/Users/cintiafalcao/portfolio2021/teste2.html",
+		"/Users/cintiafalcao/portfolio2021/teste.html",
+		"/Users/cintiafalcao/portfolio2021/scss/flickity.css",
+		"/Users/cintiafalcao/portfolio2021/assets/css/flickity.css",
+		"/Users/cintiafalcao/portfolio2021/report.html",
+		"/Users/cintiafalcao/portfolio2021/EFDN.html",
+		"/Users/cintiafalcao/portfolio2021/vamosdesenhar.html",
+		"/Users/cintiafalcao/portfolio2021/repport.html",
+		"/Users/cintiafalcao/portfolio2021/work-sideproject.html",
+		"/Users/cintiafalcao/Documents/bootstrap-5.0.0-beta2-examples/carousel/index.html",
 		"/Users/cintiafalcao/bootstrap-npm-starter/scss/starter.scss",
 		"/Users/cintiafalcao/Documents/portifolio/penacova/app/public/index.php",
 		"/Users/cintiafalcao/Documents/cintiafalcao.github.io/about.html",
@@ -175,6 +246,8 @@
 		"height": 104.0,
 		"where_history":
 		[
+			"Open files",
+			""
 		]
 	},
 	"find_state":
@@ -182,6 +255,74 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"node_modules/",
+			"//",
+			"<script src=\"assets/js",
+			"<script src=\"<script src=\"assets/js/jquery/dist/jquery.slim.min.js\">",
+			"\n<script src=\"<script src=\"assets/js/jquery/dist/jquery.slim.min.js\"></script>",
+			"node_modules/assets/js/assets/js/",
+			"<script src=\"node_modules/",
+			"tag-resume",
+			"a",
+			"a \t",
+			"a\t",
+			"zoom",
+			"active",
+			"gs4",
+			"zoom",
+			"close-zoom-btn",
+			"menu",
+			"close-zoom-btn",
+			"zoom",
+			"Diego-",
+			"zoom",
+			"alt=\"Diego\"",
+			"Diego-",
+			"Vamosdesenhar",
+			"alt=\"ADC\"",
+			"ADC-",
+			"grid-container-image",
+			"alt=\"Qranio\"",
+			"Qranio-",
+			"alt=\"efdn\"",
+			"badges",
+			"regular",
+			"badges-icons",
+			"a ",
+			"a",
+			"col-3",
+			"alt=\"efdn\"",
+			"grid-col-2",
+			"screen",
+			"grid",
+			"screen",
+			"margin-left",
+			"inter right",
+			".center",
+			"big",
+			"label",
+			"center",
+			"notatio",
+			"regular",
+			"screen",
+			"regular",
+			"margin-left",
+			"screen",
+			"date",
+			"notat",
+			"a",
+			"item",
+			"item ",
+			"tag-project",
+			"tag project",
+			"p ",
+			"p",
+			"p ",
+			"414",
+			"grid",
+			"left",
+			"img",
+			"p"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -189,6 +330,22 @@
 		"regex": false,
 		"replace_history":
 		[
+			"assets/js/",
+			"<script src=\"node_modules",
+			"<script src=\"assets/js/jquery/dist/jquery.slim.min.js\">",
+			"\n<script src=\"assets/js/jquery/dist/jquery.slim.min.js\"></script>",
+			"<script src=\"assets/js/",
+			"<script src=\"node_modules/assets/js/",
+			"LiveLife-",
+			"alt=\"Devoradores\"",
+			"Devoradores-",
+			"Diego",
+			"alt=\"Vamosdesenhar\"",
+			"Vamosdesenhar-",
+			"alt=\"ADC\"",
+			"ADC-",
+			"alt=\"The Report\"",
+			"alt=\"Qranio\""
 		],
 		"reverse": false,
 		"show_context": false,
@@ -199,8 +356,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9420,
+								9420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/starter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -210,7 +426,7 @@
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -301,7 +517,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 303.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
