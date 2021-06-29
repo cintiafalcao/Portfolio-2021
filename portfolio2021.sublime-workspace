@@ -47,24 +47,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "about.html",
-			"settings":
-			{
-				"buffer_size": 9543,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/starter.js",
-			"settings":
-			{
-				"buffer_size": 624,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -104,6 +86,7 @@
 	[
 		"/Users/cintiafalcao/portfolio2021",
 		"/Users/cintiafalcao/portfolio2021/assets",
+		"/Users/cintiafalcao/portfolio2021/assets/icons",
 		"/Users/cintiafalcao/portfolio2021/assets/js",
 		"/Users/cintiafalcao/portfolio2021/fonts",
 		"/Users/cintiafalcao/portfolio2021/scss"
@@ -111,24 +94,24 @@
 	"file_history":
 	[
 		"/Users/cintiafalcao/portfolio2021/work.html",
+		"/Users/cintiafalcao/portfolio2021/work-web.html",
 		"/Users/cintiafalcao/portfolio2021/work-illustration.html",
-		"/Users/cintiafalcao/portfolio2021/ADC.html",
+		"/Users/cintiafalcao/portfolio2021/work-branding.html",
+		"/Users/cintiafalcao/portfolio2021/work-app.html",
+		"/Users/cintiafalcao/portfolio2021/index.html",
+		"/Users/cintiafalcao/portfolio2021/about.html",
 		"/Users/cintiafalcao/portfolio2021/app-EFDN.html",
 		"/Users/cintiafalcao/portfolio2021/app-report.html",
 		"/Users/cintiafalcao/portfolio2021/diegoreis.html",
 		"/Users/cintiafalcao/portfolio2021/ill-devoradores.html",
 		"/Users/cintiafalcao/portfolio2021/ill-vamosdesenhar.html",
-		"/Users/cintiafalcao/portfolio2021/index.html",
 		"/Users/cintiafalcao/portfolio2021/qranio.html",
 		"/Users/cintiafalcao/portfolio2021/sideproject.html",
 		"/Users/cintiafalcao/portfolio2021/web-livelife.html",
-		"/Users/cintiafalcao/portfolio2021/work-app.html",
-		"/Users/cintiafalcao/portfolio2021/work-branding.html",
-		"/Users/cintiafalcao/portfolio2021/work-web.html",
-		"/Users/cintiafalcao/portfolio2021/about.html",
-		"/Users/cintiafalcao/portfolio2021/scss/flickity.scss",
 		"/Users/cintiafalcao/portfolio2021/scss/starter.scss",
 		"/Users/cintiafalcao/portfolio2021/assets/js/starter.js",
+		"/Users/cintiafalcao/portfolio2021/ADC.html",
+		"/Users/cintiafalcao/portfolio2021/scss/flickity.scss",
 		"/Users/cintiafalcao/portfolio2021/teste2.html",
 		"/Users/cintiafalcao/portfolio2021/teste.html",
 		"/Users/cintiafalcao/portfolio2021/scss/flickity.css",
@@ -255,6 +238,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"z-index",
 			"node_modules/",
 			"//",
 			"<script src=\"assets/js",
@@ -356,67 +340,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9420,
-								9420
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2285.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/js/starter.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								518,
-								518
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -459,7 +384,7 @@
 	"project": "portfolio2021.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
