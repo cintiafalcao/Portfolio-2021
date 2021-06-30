@@ -183,7 +183,7 @@
   </div>
   
   <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.js'></script>
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="assets/js/jquery/dist/jquery.slim.min.js"></script>
   <script type="module" src="assets/js/starter.js"></script>
 
   <script>
@@ -271,17 +271,17 @@
       $('.container-layer').addClass('active');
     });
 
-    $(
-      '.buzzfeat').on('click', function(e) {
+    $('.buzzfeat').on('click', function(e) {
       loadCarousel(carouselImages.buzzfeat);
       $('.container-layer').addClass('active');
     });
+
     $('.close-zoom-btn').on('click', function(e) {
       if (flickity) {
         flickity.destroy();
         flickity = null;
       }
-      $('.container-layer').removeClass('active');      
+    $('.container-layer').removeClass('active');      
     });
 
    </script>
