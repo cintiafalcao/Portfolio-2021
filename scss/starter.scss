@@ -450,7 +450,7 @@ img.label {
   overflow: hidden;
   width: 0;
   height: 100%;
-  z-index: 4;
+  z-index: 9;
 }
 
 .container-zoom.active {  
@@ -1024,6 +1024,19 @@ img.halfsize {
 
 .work-filter a:hover .sideproject span, .sideproject.active span {
   background: linear-gradient(to left, #2E9EC6, #F3AE6D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+a:hover .tag-resume {
+  &:before {
+    background: linear-gradient(to left, #098EB2, #FF6B6B);
+  }
+}
+
+a:hover .tag-resume span {
+  background: linear-gradient(to left, #098EB2, #FF6B6B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
