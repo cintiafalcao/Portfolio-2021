@@ -56,6 +56,15 @@
 
   <div class="grid-container-image">
     <div>
+      <div class="healthy thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="healthy">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-healthy-app.png" alt="healthy">
+      </div>
+      <div class="margin-lateral"><h3>Healthy App</h3>
+      <p class="tag-web" id="tag"><span>Web</span></p><p class="tag-illustration" id="tag"><span>Illustration</span></p></div>
+    </div> 
+    <div>
       <div class="thumb">
         <a href="ill-vamosdesenhar.html" class="overlay-text"><p class="tag-project" id="tag"><span class="lnr lnr-eye"></span><span>View Project</span></p></a>
         <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
@@ -119,6 +128,19 @@
         "assets/images/Docbrown-gameofthrone.png",
         "assets/images/Docbrown-slackline.png",
       ],
+      healthy: [
+        "assets/images/Healthy-2-1-Dashboard.png",
+        "assets/images/Healthy-2-2-Menu.png",
+        "assets/images/Healthy-2-3-Survey.png",
+        "assets/images/Healthy-3-0-Navigation.png",
+        "assets/images/Healthy-4-0-Reports.png",
+        "assets/images/Healthy-4-1-Daily-vegetables.png",
+        "assets/images/Healthy-Daily-vegetables-web.png",
+        "assets/images/Healthy-Dashboard-web.png",
+        "assets/images/Healthy-Navigation-web.png",
+        "assets/images/Healthy-Reports-web.png",
+        "assets/images/Healthy-Survey-web.png",
+      ],
     };
     function loadCarousel(images) {
       const carousel = document.querySelector(".carousel");
@@ -170,6 +192,10 @@
 
     $('.vormats').on('click', function(e) {
       loadCarousel(carouselImages.vormats);
+      $('.container-layer').addClass('active');
+    });
+    $('.healthy').on('click', function(e) {
+      loadCarousel(carouselImages.healthy);
       $('.container-layer').addClass('active');
     });
 

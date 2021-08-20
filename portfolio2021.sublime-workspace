@@ -47,6 +47,59 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "work-branding.html",
+			"settings":
+			{
+				"buffer_size": 5547,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work-illustration.html",
+			"settings":
+			{
+				"buffer_size": 7912,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work-web.html",
+			"settings":
+			{
+				"buffer_size": 12970,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work.html",
+			"settings":
+			{
+				"buffer_size": 19293,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app-EFDN.html",
+			"settings":
+			{
+				"buffer_size": 8220,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/starter.scss",
+			"settings":
+			{
+				"buffer_size": 21430,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -86,31 +139,30 @@
 	[
 		"/Users/cintiafalcao/portfolio2021",
 		"/Users/cintiafalcao/portfolio2021/assets",
-		"/Users/cintiafalcao/portfolio2021/assets/icons",
-		"/Users/cintiafalcao/portfolio2021/assets/js",
+		"/Users/cintiafalcao/portfolio2021/assets/video",
 		"/Users/cintiafalcao/portfolio2021/fonts",
 		"/Users/cintiafalcao/portfolio2021/scss"
 	],
 	"file_history":
 	[
-		"/Users/cintiafalcao/portfolio2021/work.html",
-		"/Users/cintiafalcao/portfolio2021/work-web.html",
-		"/Users/cintiafalcao/portfolio2021/work-illustration.html",
-		"/Users/cintiafalcao/portfolio2021/work-branding.html",
 		"/Users/cintiafalcao/portfolio2021/work-app.html",
-		"/Users/cintiafalcao/portfolio2021/index.html",
+		"/Users/cintiafalcao/portfolio2021/web-livelife.html",
+		"/Users/cintiafalcao/portfolio2021/sideproject.html",
 		"/Users/cintiafalcao/portfolio2021/about.html",
+		"/Users/cintiafalcao/portfolio2021/ADC.html",
 		"/Users/cintiafalcao/portfolio2021/app-EFDN.html",
 		"/Users/cintiafalcao/portfolio2021/app-report.html",
 		"/Users/cintiafalcao/portfolio2021/diegoreis.html",
 		"/Users/cintiafalcao/portfolio2021/ill-devoradores.html",
 		"/Users/cintiafalcao/portfolio2021/ill-vamosdesenhar.html",
+		"/Users/cintiafalcao/portfolio2021/index.html",
 		"/Users/cintiafalcao/portfolio2021/qranio.html",
-		"/Users/cintiafalcao/portfolio2021/sideproject.html",
-		"/Users/cintiafalcao/portfolio2021/web-livelife.html",
+		"/Users/cintiafalcao/portfolio2021/work-web.html",
 		"/Users/cintiafalcao/portfolio2021/scss/starter.scss",
+		"/Users/cintiafalcao/portfolio2021/work.html",
+		"/Users/cintiafalcao/portfolio2021/work-illustration.html",
+		"/Users/cintiafalcao/portfolio2021/work-branding.html",
 		"/Users/cintiafalcao/portfolio2021/assets/js/starter.js",
-		"/Users/cintiafalcao/portfolio2021/ADC.html",
 		"/Users/cintiafalcao/portfolio2021/scss/flickity.scss",
 		"/Users/cintiafalcao/portfolio2021/teste2.html",
 		"/Users/cintiafalcao/portfolio2021/teste.html",
@@ -238,6 +290,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body",
+			"tag-resume",
 			"z-index",
 			"node_modules/",
 			"//",
@@ -340,8 +394,189 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "work-branding.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work-illustration.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "work-web.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "work.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app-EFDN.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6742,
+								6742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/starter.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 21430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6640,
+								6624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

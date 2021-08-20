@@ -16,11 +16,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link rel="stylesheet" href="assets/css/starter.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.css'>
+    <link rel="stylesheet" href="assets/css/flickity.css">
     <title>Cintia Falcao - Portfolio</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
+  <!-- Flickity HTML init -->
+  <div class="container-layer">
+    <button class="close-zoom-btn"><img class="responsive-img" src="assets/icons/icon-zoom-out.svg" alt="logo"></button>
+    <div class="carousel">   
+    </div>
+  </div>
 
+  <div class="container-zoom">
+    <button class="close-zoom-btn"><img class="responsive-img" src="assets/icons/icon-zoom-out.svg" alt="logo"></button>
+    <div class="center"><img class="big responsive-img" src="assets/images/lojadaseda.png"></div>
+  </div>
 
   <nav class="navbar navfixed">
     <div class="top-left">
@@ -60,6 +72,15 @@
   </div>
 
   <div class="grid-container-image">
+    <div>
+      <div class="healthy thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="healthy">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-healthy-app.png" alt="healthy">
+      </div>
+      <div class="margin-lateral"><h3>Healthy App</h3>
+      <p class="tag-web" id="tag"><span>Web</span></p><p class="tag-illustration" id="tag"><span>Illustration</span></p></div>
+    </div> 
     <div>
       <div class="thumb">
         <a href="app-EFDN.html" class="overlay-text"><p class="tag-project" id="tag"><span class="lnr lnr-eye"></span><span>View Project</span></p></a>
@@ -116,18 +137,53 @@
     <p class="x-small copyright"><img class="responsive-img" src="assets/icons/logo-outline.svg" alt="logo"><span>Designed and Coded by me.</span></p>
   </div>
 
+  <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.js'></script>
+  <script src="assets/js/jquery/dist/jquery.slim.min.js"></script>
+  <script type="module" src="assets/js/starter.js"></script>
+
 <script>
   let startPosition = true;
   const player = document.querySelector("lottie-player");
   player.load("https://assets4.lottiefiles.com/private_files/lf30_fkmyiy22.json");
 
-  player.addEventListener("click", closeMenu);
+    player.addEventListener("click", closeMenu);
+
+    let flickity = null;
+    const carouselImages = {
+      healthy: [
+        "assets/images/Healthy-2-1-Dashboard.png",
+        "assets/images/Healthy-2-2-Menu.png",
+        "assets/images/Healthy-2-3-Survey.png",
+        "assets/images/Healthy-3-0-Navigation.png",
+        "assets/images/Healthy-4-0-Reports.png",
+        "assets/images/Healthy-4-1-Daily-vegetables.png",
+        "assets/images/Healthy-Daily-vegetables-web.png",
+        "assets/images/Healthy-Dashboard-web.png",
+        "assets/images/Healthy-Navigation-web.png",
+        "assets/images/Healthy-Reports-web.png",
+        "assets/images/Healthy-Survey-web.png",
+      ],
+    };
+    function loadCarousel(images) {
+      const carousel = document.querySelector(".carousel");
+      carousel.innerHTML = "";
+      for (let image of images) {
+        const img = document.createElement("img");
+        img.classList.add("carousel-image");
+        img.setAttribute("data-flickity-lazyload", image);
+        carousel.appendChild(img);
+
+      }
+      flickity = new Flickity(carousel, {
+        lazyLoad: 3,
+        initialIndex: 1,
+      });
+    }
 
   function closeMenu() {
     $('.fixed-menu-bg').toggleClass('active');
 
     $('.thumb').toggleClass('disabled');
-
 
 
     if(startPosition){
@@ -141,9 +197,28 @@
     }
 
   }
+     $('.zoom').on('click', function(e) {
+      $('.container-zoom').toggleClass('active');
+      $(".big").attr("src","assets/images/"+ $(this).children("img").attr("alt") +".png");
+    });
+
+    $('.close-zoom-btn').on('click', function(e) {
+      $('.container-zoom').removeClass('active');      
+    });
+
+    $('.healthy').on('click', function(e) {
+      loadCarousel(carouselImages.healthy);
+      $('.container-layer').addClass('active');
+    });
+
+    $('.close-zoom-btn').on('click', function(e) {
+      if (flickity) {
+        flickity.destroy();
+        flickity = null;
+      }
+      $('.container-layer').removeClass('active');      
+    });
 </script>
 
-    <script src="assets/js/jquery/dist/jquery.slim.min.js"></script>
-    <script type="module" src="assets/js/starter.js"></script>
   </body>
 </html>
