@@ -79,10 +79,30 @@
         <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
         <img class="responsive-img backgr" src="assets/images/thumb-healthy-app.png" alt="healthy">
       </div>
-      <div class="margin-lateral"><h3>Healthy App</h3>
+      <div class="margin-lateral"><h3>Pivio</h3>
       <p class="tag-web" id="tag"><span>Web</span></p><p class="tag-illustration" id="tag"><span>Illustration</span></p></div>
     </div>
-    
+
+    <div>
+      <div class="greedy thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="The Greedy Tree">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-digitalcolor-thegreedytree.png" alt="The Greedy Tree">
+      </div>
+      <div class="margin-lateral"><h3>The Greedy Tree</h3>
+      <p class="tag-illustration" id="tag"><span>Illustration</span></p></div>
+    </div>
+
+    <div>
+      <div class="boizinho thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="Boizinho">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-digitalcolor-boizinho.png" alt="Boizinho">
+      </div>
+      <div class="margin-lateral"><h3>O Boizinho de São João</h3>
+      <p class="tag-illustration" id="tag"><span>Illustration</span></p></div>
+    </div>
+
     <div>
       <div class="thumb">
         <a href="app-EFDN.html" class="overlay-text"><p class="tag-project" id="tag"><span class="lnr lnr-eye"></span><span>View Project</span></p></a>
@@ -165,6 +185,18 @@
         "assets/images/Healthy-Reports-web.png",
         "assets/images/Healthy-Survey-web.png",
       ],
+      greedy: [
+        "assets/images/Greedy-2.png",
+        "assets/images/Greedy-3.png",
+        "assets/images/Greedy-5.png",
+        "assets/images/Greedy-8.png",
+        "assets/images/Greedy-11.png",
+      ],
+      boizinho: [
+        "assets/images/Boi-Fazenda.png",
+        "assets/images/Boi-animais.png",
+        "assets/images/Boi-Panoramica.png",
+      ],
     };
     function loadCarousel(images) {
       const carousel = document.querySelector(".carousel");
@@ -210,6 +242,14 @@
 
     $('.healthy').on('click', function(e) {
       loadCarousel(carouselImages.healthy);
+      $('.container-layer').addClass('active');
+    });
+    $('.greedy').on('click', function(e) {
+      loadCarousel(carouselImages.greedy);
+      $('.container-layer').addClass('active');
+    });
+    $('.boizinho').on('click', function(e) {
+      loadCarousel(carouselImages.boizinho);
       $('.container-layer').addClass('active');
     });
 
