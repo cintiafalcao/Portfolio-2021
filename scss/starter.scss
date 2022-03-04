@@ -580,11 +580,11 @@ ul.menu {
   top: 0;
   z-index: 2;
 
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;	
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;	
 }
 
 .overlay-text {
@@ -594,11 +594,11 @@ ul.menu {
   left: calc(50% - 3.3rem);
   opacity: 0;
 
-  -webkit-transition: opacity 1s ease-in-out 0.5s;
-  -moz-transition: opacity 1s ease-in-out 0.5s;
-  -ms-transition: opacity 1s ease-in-out 0.5s;
-  -o-transition: opacity 1s ease-in-out 0.5s;
-  transition: opacity 1s ease-in-out 0.5s;
+  -webkit-transition: opacity .5s ease-in-out 0.2s;
+  -moz-transition: opacity .5s ease-in-out 0.2s;
+  -ms-transition: opacity .5s ease-in-out 0.2s;
+  -o-transition: opacity .5s ease-in-out 0.2s;
+  transition: opacity .5s ease-in-out 0.2s;
 }
 
 .overlay-icon {
@@ -609,11 +609,11 @@ ul.menu {
   right:0.5rem;
   opacity: 0;
 
-  -webkit-transition: opacity 1s ease-in-out 0.5s;
-  -moz-transition: opacity 1s ease-in-out 0.5s;
-  -ms-transition: opacity 1s ease-in-out 0.5s;
-  -o-transition: opacity 1s ease-in-out 0.5s;
-  transition: opacity 1s ease-in-out 0.5s;
+  -webkit-transition: opacity .5s ease-in-out 0.2s;
+  -moz-transition: opacity .5s ease-in-out 0.2s;
+  -ms-transition: opacity .5s ease-in-out 0.2s;
+  -o-transition: opacity .5s ease-in-out 0.2s;
+  transition: opacity .5s ease-in-out 0.2s;
 }
 
 .thumb:hover .overlay-text, .thumb:hover .overlay, .thumb:hover .overlay-icon {
