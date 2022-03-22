@@ -9,16 +9,25 @@
 
     gtag('config', 'UA-20798319-1');
   </script>
+  
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link rel="stylesheet" href="assets/css/starter.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.css'>
+    <link rel="stylesheet" href="assets/css/flickity.css">
     <title>Cintia Falcao - Portfolio</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
+  <!-- Flickity HTML init -->
+  <div class="container-layer">
+    <button class="close-zoom-btn"><img class="responsive-img" src="assets/icons/icon-zoom-out.svg" alt="logo"></button>
+    <div class="carousel">   
+    </div>
+  </div>
 
   <div class="container-zoom">
     <button class="close-zoom-btn"><img class="responsive-img" src="assets/icons/icon-zoom-out.svg" alt="logo"></button>
@@ -48,6 +57,24 @@
   </div>
 
   <div class="grid-container-image">
+    <div>
+      <div class="greedy thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="The Greedy Tree">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-digitalcolor-thegreedytree.png" alt="The Greedy Tree">
+      </div>
+      <div class="margin-lateral"><h3>The Greedy Tree</h3></div>
+    </div>
+
+    <div>
+      <div class="boizinho thumb c-hand">
+        <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="Boizinho">
+        <img class="responsive-img overlay" src="assets/images/thumb-overlay.png" alt="gradient">
+        <img class="responsive-img backgr" src="assets/images/thumb-digitalcolor-boizinho.png" alt="Boizinho">
+      </div>
+      <div class="margin-lateral"><h3>O Boizinho de São João</h3></div>
+    </div>
+
     <div>
       <div class="zoom thumb">
         <img class="responsive-img overlay-icon" src="assets/icons/icon-zoom-in.svg" alt="cat">
@@ -144,35 +171,66 @@
     <p class="x-small copyright"><img class="responsive-img" src="assets/icons/logo-outline.svg" alt="logo"><span>Designed and Coded by me.</span></p>
   </div>
   
+  <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.js'></script>
   <script src="assets/js/jquery/dist/jquery.slim.min.js"></script>
   <script type="module" src="assets/js/starter.js"></script>
 
-  <script>
-    let startPosition = true;
-    const player = document.querySelector("lottie-player");
-    player.load("https://assets4.lottiefiles.com/private_files/lf30_fkmyiy22.json");
+<script>
+  let startPosition = true;
+  const player = document.querySelector("lottie-player");
+  player.load("https://assets4.lottiefiles.com/private_files/lf30_fkmyiy22.json");
 
     player.addEventListener("click", closeMenu);
 
-    function closeMenu() {
-      $('.fixed-menu-bg').toggleClass('active');
+    let flickity = null;
+    const carouselImages = {
+      greedy: [
+        "assets/images/Greedy-2.png",
+        "assets/images/Greedy-3.png",
+        "assets/images/Greedy-5.png",
+        "assets/images/Greedy-8.png",
+        "assets/images/Greedy-11.png",
+      ],
+      boizinho: [
+        "assets/images/Boi-fazenda.png",
+        "assets/images/Boi-animais.png",
+        "assets/images/Boi-panoramica.png",
+      ],
+    };
+    function loadCarousel(images) {
+      const carousel = document.querySelector(".carousel");
+      carousel.innerHTML = "";
+      for (let image of images) {
+        const img = document.createElement("img");
+        img.classList.add("carousel-image");
+        img.setAttribute("data-flickity-lazyload", image);
+        carousel.appendChild(img);
 
-      $('.thumb').toggleClass('disabled');
-
-
-
-      if(startPosition){
-        player.setDirection(1);   // Set the direction of the animation
-        player.play();   // Play the animation till the end
-        startPosition = !startPosition;   // Set the variable to false
-      } else {
-        player.setDirection(-1);   // If startPosition is false, switch direction
-        player.play();   // and play the animation again but this time reversed
-        startPosition = !startPosition;   // Set the startPosition to true for the next click
       }
+      flickity = new Flickity(carousel, {
+        lazyLoad: 3,
+        initialIndex: 1,
+      });
     }
 
-    $('.zoom').on('click', function(e) {
+  function closeMenu() {
+    $('.fixed-menu-bg').toggleClass('active');
+
+    $('.thumb').toggleClass('disabled');
+
+
+    if(startPosition){
+      player.setDirection(1);   // Set the direction of the animation
+      player.play();   // Play the animation till the end
+      startPosition = !startPosition;   // Set the variable to false
+    } else {
+      player.setDirection(-1);   // If startPosition is false, switch direction
+      player.play();   // and play the animation again but this time reversed
+      startPosition = !startPosition;   // Set the startPosition to true for the next click
+    }
+
+  }
+     $('.zoom').on('click', function(e) {
       $('.container-zoom').toggleClass('active');
       $(".big").attr("src","assets/images/side-"+ $(this).children("img").attr("alt") +".png");
     });
@@ -180,7 +238,23 @@
     $('.close-zoom-btn').on('click', function(e) {
       $('.container-zoom').removeClass('active');      
     });
-   </script>
+    $('.greedy').on('click', function(e) {
+      loadCarousel(carouselImages.greedy);
+      $('.container-layer').addClass('active');
+    });
+    $('.boizinho').on('click', function(e) {
+      loadCarousel(carouselImages.boizinho);
+      $('.container-layer').addClass('active');
+    });
+
+    $('.close-zoom-btn').on('click', function(e) {
+      if (flickity) {
+        flickity.destroy();
+        flickity = null;
+      }
+      $('.container-layer').removeClass('active');      
+    });
+</script>
     
   </body>
 </html>
