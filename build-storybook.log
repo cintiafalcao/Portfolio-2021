@@ -1,0 +1,99 @@
+info @storybook/react v6.4.22
+info 
+info => Cleaning outputDir: /var/folders/r8/nkjtqvks0vjgl5_l_x62wrph0000gn/T/chromatic--13586-v5OgFC44s9DW
+info => Loading presets
+WARN   Failed to load preset: "/Users/cintiafalcao/portfolio2021/node_modules/@storybook/manager-webpack4/dist/cjs/presets/manager-preset.js"
+ERR! Error: Cannot find module 'react/package.json'
+ERR! Require stack:
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/noop.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1029:15)
+ERR!     at resolveFileName (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:29:39)
+ERR!     at resolveFrom (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:43:9)
+ERR!     at module.exports (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:46:47)
+ERR!     at Object.<anonymous> (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/paths.js:17:18)
+ERR!     at Module._compile (internal/modules/cjs/loader.js:1200:30)
+ERR!     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+ERR!     at Module.load (internal/modules/cjs/loader.js:1049:32)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+ERR!     at Module.require (internal/modules/cjs/loader.js:1089:19)
+ERR!     at require (internal/modules/cjs/helpers.js:73:18)
+ERR!     at Object.<anonymous> (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/manager-webpack4/dist/cjs/presets/manager-preset.js:63:38)
+ERR!     at Module._compile (internal/modules/cjs/loader.js:1200:30)
+ERR!     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+ERR!     at Module.load (internal/modules/cjs/loader.js:1049:32)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+ERR!  Error: Cannot find module 'react/package.json'
+ERR! Require stack:
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/noop.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1029:15)
+ERR!     at resolveFileName (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:29:39)
+ERR!     at resolveFrom (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:43:9)
+ERR!     at module.exports (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/node_modules/resolve-from/index.js:46:47)
+ERR!     at Object.<anonymous> (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/paths.js:17:18)
+ERR!     at Module._compile (internal/modules/cjs/loader.js:1200:30)
+ERR!     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+ERR!     at Module.load (internal/modules/cjs/loader.js:1049:32)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+ERR!     at Module.require (internal/modules/cjs/loader.js:1089:19)
+ERR!     at require (internal/modules/cjs/helpers.js:73:18)
+ERR!     at Object.<anonymous> (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/manager-webpack4/dist/cjs/presets/manager-preset.js:63:38)
+ERR!     at Module._compile (internal/modules/cjs/loader.js:1200:30)
+ERR!     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+ERR!     at Module.load (internal/modules/cjs/loader.js:1049:32)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:937:14) {
+ERR!   code: 'MODULE_NOT_FOUND',
+ERR!   requireStack: [
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/ui/noop.js'
+ERR!   ]
+ERR! }
+info => Compiling manager..
+info => Compiling preview..
+ERR! Error: Cannot find module 'react/package.json'
+ERR! Require stack:
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/preview/iframe-webpack.config.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/presets/preview-preset.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/presets.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/index.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/index.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/dist/cjs/server.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/server.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/dist/cjs/server/build.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1029:15)
+ERR!     at Function.resolve (internal/modules/cjs/helpers.js:79:19)
+ERR!     at _default (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/preview/iframe-webpack.config.js:196:46)
+ERR!     at async Object.build (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/index.js:174:16)
+ERR!     at async Promise.all (index 1)
+ERR!     at async buildStaticStandalone (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/build-static.js:175:28)
+ERR!     at async buildStatic (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+ERR!  Error: Cannot find module 'react/package.json'
+ERR! Require stack:
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/preview/iframe-webpack.config.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/presets/preview-preset.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/presets.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/index.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/index.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/dist/cjs/server.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/server.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/dist/cjs/server/build.js
+ERR! - /Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1029:15)
+ERR!     at Function.resolve (internal/modules/cjs/helpers.js:79:19)
+ERR!     at _default (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/preview/iframe-webpack.config.js:196:46)
+ERR!     at async Object.build (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/index.js:174:16)
+ERR!     at async Promise.all (index 1)
+ERR!     at async buildStaticStandalone (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/build-static.js:175:28)
+ERR!     at async buildStatic (/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5) {
+ERR!   code: 'MODULE_NOT_FOUND',
+ERR!   requireStack: [
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/preview/iframe-webpack.config.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/builder-webpack4/dist/cjs/presets/preview-preset.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/presets.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-common/dist/cjs/index.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core-server/dist/cjs/index.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/dist/cjs/server.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/core/server.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/dist/cjs/server/build.js',
+ERR!     '/Users/cintiafalcao/portfolio2021/node_modules/@storybook/react/bin/build.js'
+ERR!   ]
+ERR! }
